@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.13.3",
-    "@emotion/styled": "^11.13.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@eslint/config-array": "^0.18.0",
     "@eslint/object-schema": "^2.1.4",
-    "@mui/material": "^6.0.1",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@mui/styles": "^6.4.8",
+    "@mui/system": "^7.0.2",
+    "@mui/utils": "^7.0.2",
     "axios": "^1.7.7",
     "firebase": "^10.13.1",
     "lru-cache": "^11.0.0",
