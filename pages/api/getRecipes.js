@@ -10,7 +10,7 @@ export default async function handler(req, res) {
         messages: [
           {
             role: 'user',
-            content: `Suggest one succint recipe based on these ingredients: ${ingredients}. It should be in bullet points and there should be a proper ending to the sentences.`,
+            content: `Suggest one succint recipe based on one or more of these ingredients: ${ingredients}. It should be in bullet points and there should be a proper ending to the sentences.`,
           },
         ],
         max_tokens: 100,
